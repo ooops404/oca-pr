@@ -14,7 +14,11 @@ Temporary repo containing OCA PR's
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[stock_secondary_unit](stock_secondary_unit/) | 12.0.1.1.0 | Get product quantities in a secondary unit
 
 [//]: # (end addons)
 
