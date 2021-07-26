@@ -1,0 +1,7 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: 32df7a7
+_src_path: git@github.com:ooops404/ooops-tmpl-repo
+odoo_version: 12.0
+repo_description: Temporary repo containing OCA PR's
+repo_name: OCA PR for addons
+repo_slug: oca-pr
