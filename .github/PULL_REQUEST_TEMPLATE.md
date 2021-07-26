@@ -1,5 +1,4 @@
-Description of the problem or feature or link to the task
-=========================================================
+# Description of the problem or feature or link to the task
 
 Current behavior prior to this PR:
 
