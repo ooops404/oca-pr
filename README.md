@@ -18,7 +18,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[stock_secondary_unit](stock_secondary_unit/) | 12.0.1.1.0 | Get product quantities in a secondary unit
+[pos_cache_user_restriction](pos_cache_user_restriction/) | 12.0.1.0.0 | Allow access to pos cache to restricted users
 
 [//]: # (end addons)
 
