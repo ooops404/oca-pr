@@ -13,11 +13,14 @@ POS Cache - Restrict users
 .. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fpos-lightgray.png?logo=github
-    :target: https://github.com/OCA/pos/tree/12.0/pos_cache_user_restriction
-    :alt: OCA/pos
+.. |badge3| image:: https://img.shields.io/badge/github-ooops404%2Foca--pr-lightgray.png?logo=github
+    :target: https://github.com/ooops404/oca-pr/tree/12.0/pos_cache_user_restriction
+    :alt: ooops404/oca-pr
+.. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
+    :target: http://weblate.ops404.it/projects/oca-pr/pos_cache_user_restriction
+    :alt: Translate me on Weblate
 
-|badge1| |badge2| |badge3| 
+|badge1| |badge2| |badge3| |badge4| 
 
 Allow User: Assigned POS Only group to access Pos Cache model
 
@@ -29,10 +32,10 @@ Allow User: Assigned POS Only group to access Pos Cache model
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/OCA/pos/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/ooops404/oca-pr/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/pos/issues/new?body=module:%20pos_cache_user_restriction%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/ooops404/oca-pr/issues/new?body=module:%20pos_cache_user_restriction%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -52,24 +55,14 @@ Contributors
 Maintainers
 ~~~~~~~~~~~
 
-This module is maintained by the OCA.
-
-.. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
-   :target: https://odoo-community.org
-
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-
 .. |maintainer-GSLabIt| image:: https://github.com/GSLabIt.png?size=40px
     :target: https://github.com/GSLabIt
     :alt: GSLabIt
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current maintainer:
 
 |maintainer-GSLabIt| 
 
-This module is part of the `OCA/pos <https://github.com/OCA/pos/tree/12.0/pos_cache_user_restriction>`_ project on GitHub.
+This module is part of the `ooops404/oca-pr <https://github.com/ooops404/oca-pr/tree/12.0/pos_cache_user_restriction>`_ project on GitHub.
 
-You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
+You are welcome to contribute.
