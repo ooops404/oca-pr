@@ -19,6 +19,7 @@ Available addons
 addon | version | summary
 --- | --- | ---
 [pos_cache_user_restriction](pos_cache_user_restriction/) | 12.0.1.0.0 | Allow access to pos cache to restricted users
+[sale_discount_display_amount](sale_discount_display_amount/) | 12.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 
 [//]: # (end addons)
 
