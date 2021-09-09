@@ -18,7 +18,7 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
-[pos_cache_user_restriction](pos_cache_user_restriction/) | 12.0.1.0.0 | Allow access to pos cache to restricted users
+[delivery_price_rule_untaxed](delivery_price_rule_untaxed/) | 12.0.1.0.0 | Add untaxed amount to variables for price delivery price rule
 [sale_discount_display_amount](sale_discount_display_amount/) | 12.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
 
 [//]: # (end addons)
