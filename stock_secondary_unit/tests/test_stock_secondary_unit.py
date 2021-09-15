@@ -34,34 +34,53 @@ class TestProductSecondaryUnit(SavepointCase):
             'uom_po_id': cls.product_uom_kg.id,
             'type': 'product',
             'secondary_uom_ids': [
-                (0, 0, {
-                    'code': 'A',
-                    'name': 'unit-700',
-                    'uom_id': cls.product_uom_unit.id,
-                    'factor': 0.5,
-                }),
-                (0, 0, {
-                    'code': 'B',
-                    'name': 'unit-900',
-                    'uom_id': cls.product_uom_unit.id,
-                    'factor': 0.9,
-                }),
-                (0, 0, {
-                    'code': 'C',
-                    'name': 'box 10',
-                    'uom_id': cls.product_uom_unit.id,
-                    'factor': 10,
-                }),
+                (
+                    0,
+                    0,
+                    {
+                        'code': 'A',
+                        'name': 'unit-700',
+                        'uom_id': cls.product_uom_unit.id,
+                        'factor': 0.5,
+                    }
+                ),
+                (
+                    0,
+                    0,
+                    {
+                        'code': 'B',
+                        'name': 'unit-900',
+                        'uom_id': cls.product_uom_unit.id,
+                        'factor': 0.9,
+                    }
+                ),
+                (
+                    0,
+                    0,
+                    {
+                        'code': 'C',
+                        'name': 'box 10',
+                        'uom_id': cls.product_uom_unit.id,
+                        'factor': 10,
+                    }
+                ),
             ],
-            'attribute_line_ids': [(0, 0, {
-                'attribute_id': cls.attribute_color.id,
-                'value_ids': [(4, cls.attribute_value_white.id),
-                              (4, cls.attribute_value_black.id)],
-            })],
+            'attribute_line_ids': [(
+                0,
+                0,
+                {
+                    'attribute_id': cls.attribute_color.id,
+                    'value_ids': [(4, cls.attribute_value_white.id),
+                                  (4, cls.attribute_value_black.id)],
+                }
+            )],
         })
-        secondary_unit = cls.env['product.secondary.unit'].search([
-            ('product_tmpl_id', '=', cls.product_template.id),
-        ], limit=1)
+        secondary_unit = cls.env['product.secondary.unit'].search(
+            [
+                ('product_tmpl_id', '=', cls.product_template.id),
+            ],
+            limit=1,
+        )
         cls.product_template.write({
             'sale_secondary_uom_id': secondary_unit.id,
             'stock_secondary_uom_id': secondary_unit.id,
@@ -80,12 +99,12 @@ class TestProductSecondaryUnit(SavepointCase):
         cls.picking_type_out = cls.env.ref("stock.picking_type_out")
 
     def test_01_stock_secondary_unit_template(self):
-        self.assertEqual(
-            self.product_template.secondary_unit_qty_available, 40.0)
+        self.assertEqual(self.product_template.secondary_unit_qty_available, 40.0)
 
     def test_02_stock_secondary_unit_variant(self):
         for variant in self.product_template.product_variant_ids.filtered(
-                'attribute_value_ids'):
+            'attribute_value_ids'
+        ):
             self.assertEqual(variant.secondary_unit_qty_available, 20)
 
     def test_03_stock_picking_secondary_unit(self):
