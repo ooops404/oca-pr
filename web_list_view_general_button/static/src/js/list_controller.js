@@ -1,4 +1,4 @@
-odoo.define("web_list_view_general_buttons.ListController", function(require) {
+odoo.define("web_list_view_general_button.ListController", function(require) {
     "use strict";
 
     var core = require("web.core");
