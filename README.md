@@ -20,7 +20,7 @@ addon | version | summary
 --- | --- | ---
 [delivery_price_rule_untaxed](delivery_price_rule_untaxed/) | 12.0.1.0.0 | Add untaxed amount to variables for price delivery price rule
 [sale_discount_display_amount](sale_discount_display_amount/) | 12.0.1.0.1 | This addon intends to display the amount of the discount computed on sale_order_line and sale_order level
-[stock_secondary_unit](stock_secondary_unit/) | 12.0.1.2.0 | Get product quantities in a secondary unit
+[stock_secondary_unit](stock_secondary_unit/) | 12.0.1.2.2 | Get product quantities in a secondary unit
 [web_list_view_general_button](web_list_view_general_button/) | 12.0.1.0.0 | General Buttons in List View
 
 [//]: # (end addons)
