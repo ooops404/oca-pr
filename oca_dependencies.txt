@@ -1,4 +1,5 @@
 account-analytic git@github.com:OCA/account-analytic 12.0
 product-attribute git@github.com:OCA/product-attribute 12.0
 server-ux git@github.com:OCA/server-ux 12.0
+l10n-italy git@github.com:OCA/l10n-italy 12.0
 web https://github.com/OCA/web 12.0
