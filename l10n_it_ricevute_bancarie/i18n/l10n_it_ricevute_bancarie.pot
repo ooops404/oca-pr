@@ -26,7 +26,9 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:106
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:114
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:146
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:163
 #, python-format
 msgid "A/C Bank"
 msgstr ""
@@ -133,7 +135,9 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:117
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:128
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:157
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:177
 #, python-format
 msgid "Bank Fee"
 msgstr ""
@@ -157,6 +161,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:125
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:134
 #, python-format
 msgid "Bills"
 msgstr ""
@@ -173,6 +178,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:132
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:143
 #: model:ir.model.fields,field_description:l10n_it_ricevute_bancarie.field_account_move_line__riba
 #: model:ir.model.fields,field_description:l10n_it_ricevute_bancarie.field_account_payment_term__riba
 #: model:ir.ui.menu,name:l10n_it_ricevute_bancarie.menu_riba
@@ -233,6 +239,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:96
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:97
 #, python-format
 msgid "C/O Credit %s"
 msgstr ""
@@ -427,6 +434,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:100
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:104
 #: model_terms:ir.ui.view,arch_db:l10n_it_ricevute_bancarie.view_riba_configuration_form
 #, python-format
 msgid "Credit"
@@ -444,6 +452,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:137
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:148
 #: model:ir.model.fields,field_description:l10n_it_ricevute_bancarie.field_riba_distinta__accreditation_move_id
 #: model_terms:ir.ui.view,arch_db:l10n_it_ricevute_bancarie.view_riba_distinta_form
 #, python-format
@@ -468,6 +477,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/riba.py:145
+#: code:addons/l10n_it_ricevute_bancarie/models/riba.py:172
 #, python-format
 msgid "Credit date must be greater or equal to acceptance date."
 msgstr ""
@@ -550,7 +560,9 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:94
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:95
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:118
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:123
 #, python-format
 msgid "Every account is mandatory."
 msgstr ""
@@ -690,6 +702,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:283
+#: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:295
 #, python-format
 msgid "Invoice is linked to C/O slip No. {riba}"
 msgstr ""
@@ -844,40 +857,50 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:249
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:285
 #, python-format
 msgid "No IBAN or ABI/CAB specified for "
 msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:196
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:234
 #, python-format
 msgid "No IBAN specified."
 msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:204
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:241
 #, python-format
 msgid "No SIA Code specified for "
 msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:216
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:251
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:263
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_file_export.py:299
 #, python-format
 msgid "No VAT or Fiscal Code specified for "
 msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:76
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:79
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:83
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_accreditation.py:86
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:94
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:102
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:104
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:112
 #, python-format
 msgid "No active ID found."
 msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_issue.py:80
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_riba_issue.py:85
 #, python-format
 msgid "No bank has been specified for invoice %s!"
 msgstr ""
@@ -930,6 +953,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:138
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:151
 #, python-format
 msgid "Past Due Bills"
 msgstr ""
@@ -947,6 +971,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:120
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:126
 #, python-format
 msgid "Past Due C/O %s - Line %s"
 msgstr ""
@@ -975,6 +1000,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:201
+#: code:addons/l10n_it_ricevute_bancarie/wizard/wizard_unsolved.py:218
 #: model:ir.model.fields,field_description:l10n_it_ricevute_bancarie.field_riba_distinta_line__unsolved_move_id
 #, python-format
 msgid "Past Due Entry"
@@ -1024,6 +1050,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/riba.py:393
+#: code:addons/l10n_it_ricevute_bancarie/models/riba.py:437
 #, python-format
 msgid "Please define a Settlement Journal."
 msgstr ""
@@ -1092,6 +1119,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:202
+#: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:214
 #, python-format
 msgid "Set a Service for Collection Fees in Company Config."
 msgstr ""
@@ -1123,6 +1151,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/riba.py:109
+#: code:addons/l10n_it_ricevute_bancarie/models/riba.py:134
 #, python-format
 msgid "Slip %s is in state '%s'. You can only delete documents in state 'Draft' or 'Canceled'."
 msgstr ""
@@ -1228,6 +1257,7 @@ msgstr ""
 
 #. module: l10n_it_ricevute_bancarie
 #: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:236
+#: code:addons/l10n_it_ricevute_bancarie/models/account/account.py:249
 #, python-format
 msgid "{line_name} for {month}-{year}"
 msgstr ""
