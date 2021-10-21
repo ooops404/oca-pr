@@ -1,1 +1,6 @@
 git+https://github.com/OCA/openupgradelib.git
+codicefiscale
+asn1crypto
+pyxb==1.2.6
+unidecode
+phonenumbers
