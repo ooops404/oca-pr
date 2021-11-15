@@ -130,11 +130,13 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:106
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:117
 #, python-format
 msgid "At least one picking you've selected appears to be already related to another delivery note."
 msgstr ""
 
 #. module: l10n_it_delivery_note
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:32
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:33
 #, python-format
 msgid "At least one picking you've selected doesn't appear to be completed."
@@ -235,6 +237,7 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_picking.py:184
+#: code:addons/l10n_it_delivery_note/models/stock_picking.py:199
 #: model:ir.actions.act_window,name:l10n_it_delivery_note.stock_delivery_note_create_action
 #, python-format
 msgid "Create a new delivery note"
@@ -339,6 +342,7 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/account_invoice.py:103
+#: code:addons/l10n_it_delivery_note/models/account_invoice.py:107
 #, python-format
 msgid "Delivery Note \"{}\" of {}"
 msgstr ""
@@ -621,6 +625,7 @@ msgid "Invoice Line"
 msgstr ""
 
 #. module: l10n_it_delivery_note
+#: code:addons/l10n_it_delivery_note/wizard/sale_advance_payment_inv.py:39
 #: code:addons/l10n_it_delivery_note/wizard/sale_advance_payment_inv.py:44
 #, python-format
 msgid "Invoice Order"
@@ -670,11 +675,13 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:99
+#: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:101
 #, python-format
 msgid "It seems that at least one delivery note has been already created. You can't migrate any data on an already used database."
 msgstr ""
 
 #. module: l10n_it_delivery_note
+#: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:90
 #: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:91
 #, python-format
 msgid "It seems that there are no documents to migrate. You don't need to run this command."
@@ -758,6 +765,7 @@ msgid "Methods of transport"
 msgstr ""
 
 #. module: l10n_it_delivery_note
+#: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:81
 #: code:addons/l10n_it_delivery_note/cli/migrate_l10n_it_ddt.py:84
 #, python-format
 msgid "Module `l10n_it_ddt` isn't installed on this database. You don't need to run this command."
@@ -1055,6 +1063,7 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_picking.py:197
+#: code:addons/l10n_it_delivery_note/models/stock_picking.py:212
 #: model:ir.actions.act_window,name:l10n_it_delivery_note.stock_delivery_note_select_action
 #, python-format
 msgid "Select an existing delivery note"
@@ -1169,24 +1178,28 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:76
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:79
 #, python-format
 msgid "The pickings you've selected don't seem to have any location of departure."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:92
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:99
 #, python-format
 msgid "The pickings you've selected don't seem to have any location of destination."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:61
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:62
 #, python-format
 msgid "The pickings you've selected don't seem to have any partner or the selected warehouse doesn't have a valid address."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:43
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:44
 #, python-format
 msgid "The pickings you've selected don't seem to have any type."
 msgstr ""
@@ -1360,8 +1373,13 @@ msgstr ""
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:326
 #: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:362
+#: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:363
+#: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:398
 #: code:addons/l10n_it_delivery_note/models/stock_picking.py:142
+#: code:addons/l10n_it_delivery_note/models/stock_picking.py:154
 #: code:addons/l10n_it_delivery_note/models/stock_picking.py:161
+#: code:addons/l10n_it_delivery_note/models/stock_picking.py:175
+#: code:addons/l10n_it_delivery_note/wizard/delivery_note_base.py:63
 #: code:addons/l10n_it_delivery_note/wizard/delivery_note_base.py:65
 #, python-format
 msgid "Warning!"
@@ -1384,48 +1402,57 @@ msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:383
+#: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:421
 #, python-format
 msgid "You cannot cancel this delivery note. There is at least one invoice related to this delivery note."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:700
+#: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:749
 #, python-format
 msgid "You cannot change the type of a delivery note line. Instead you should delete the current line and create a new line of the proper type."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:320
+#: code:addons/l10n_it_delivery_note/models/stock_delivery_note.py:354
 #: code:addons/l10n_it_delivery_note/models/stock_picking.py:136
+#: code:addons/l10n_it_delivery_note/models/stock_picking.py:145
 #, python-format
 msgid "You cannot set this delivery note type due of a different numerator configuration."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:82
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:87
 #, python-format
 msgid "You need to select pickings with all the same location of departure."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:98
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:107
 #, python-format
 msgid "You need to select pickings with all the same location of destination."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:67
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:70
 #, python-format
 msgid "You need to select pickings with all the same recipient."
 msgstr ""
 
 #. module: l10n_it_delivery_note
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:48
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:49
 #, python-format
 msgid "You need to select pickings with all the same type."
 msgstr ""
 
 #. module: l10n_it_delivery_note
+#: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:22
 #: code:addons/l10n_it_delivery_note/mixins/picking_checker.py:25
 #, python-format
 msgid "You shouldn't be able to launch this wizard without selecting any pickings."
