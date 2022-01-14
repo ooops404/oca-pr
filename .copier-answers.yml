@@ -7,7 +7,7 @@ generate_requirements_txt: true
 include_wkhtmltopdf: false
 odoo_version: 14.0
 rebel_module_groups: []
-repo_description: 'TODO: add repo description.'
+repo_description: 'OCA PR Repository'
 repo_name: oca-pr
 repo_slug: oca-pr
 travis_apt_packages: []
