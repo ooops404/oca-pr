@@ -5,7 +5,7 @@
     "name": "Product multi-company",
     "summary": "Select individually the product template visibility on each " "company",
     "author": "Tecnativa," "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/oca-pr",
+    "website": "https://github.com/ooops404/oca-pr",
     "category": "Product Management",
     "version": "14.0.1.0.0",
     "license": "AGPL-3",

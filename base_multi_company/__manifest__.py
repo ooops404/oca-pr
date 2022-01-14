@@ -7,7 +7,7 @@
     "version": "14.0.1.1.0",
     "author": "ACSONE SA/NV, LasLabs, Tecnativa, Odoo Community Association (OCA)",
     "category": "base",
-    "website": "https://github.com/OCA/oca-pr",
+    "website": "https://github.com/ooops404/oca-pr",
     "license": "LGPL-3",
     "installable": True,
     "application": False,

@@ -5,7 +5,7 @@
     "name": "Database cleanup",
     "version": "14.0.1.0.0",
     "author": "Therp BV,Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/oca-pr",
+    "website": "https://github.com/ooops404/oca-pr",
     "depends": ["base"],
     "license": "AGPL-3",
     "category": "Tools",
