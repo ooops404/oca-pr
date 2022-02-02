@@ -6,7 +6,7 @@
     "summary": "General Buttons in List View ",
     "version": "14.0.1.0.0",
     "author": "Terrabit, Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/web",
+    "website": "https://github.com/ooops404/oca-pr",
     "category": "Generic Modules",
     "depends": ["base", "web"],
     "license": "AGPL-3",
