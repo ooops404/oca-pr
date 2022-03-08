@@ -49,6 +49,7 @@ odoo.define("web_list_view_general_buttons.ListController", function (require) {
         },
 
         _onClickGeneralButton: function (event) {
+            var self = this;
             const $el = $(event.target);
             self._rpc({
                 model: $el.attr("model"),
