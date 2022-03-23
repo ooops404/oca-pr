@@ -10,7 +10,7 @@
     "category": "Sales",
     "author": "ADHOC SA, Agile Business Group, Tecnativa, "
     "Odoo Community Association (OCA)",
-    "website": "https://github.com/OCA/sale-workflow",
+    "website": "https://github.com/ooops404/oca-pr",
     "license": "AGPL-3",
     "summary": "Manage triple discount on sale order lines",
     "depends": ["sale_management", "account_invoice_triple_discount"],
