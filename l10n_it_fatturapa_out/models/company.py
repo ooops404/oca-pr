@@ -12,7 +12,7 @@ class ResCompany(models.Model):
         "res.partner",
         "E-bill Transmitter",
         help="This partner will be used as transmitter in out invoice.",
-        default=lambda self: self.env.user.partner_id.id,
+        default=lambda self: self.env.company.partner_id.id,
     )
 
     max_invoice_in_xml = fields.Integer(
