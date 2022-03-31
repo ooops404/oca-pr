@@ -52,6 +52,7 @@
                                     <field
                                             name="e_invoice_transmitter_id"
                                             class="col-lg-6"
+                                            required="1"
                                         />
                                 </div>
                             </div>
