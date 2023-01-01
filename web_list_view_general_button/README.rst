@@ -13,9 +13,9 @@ List View General Buttons
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-Ooops404%2Foca--pr-lightgray.png?logo=github
-    :target: https://github.com/Ooops404/oca-pr/tree/12.0/web_list_view_general_button
-    :alt: Ooops404/oca-pr
+.. |badge3| image:: https://img.shields.io/badge/github-ooops404%2Foca--pr-lightgray.png?logo=github
+    :target: https://github.com/ooops404/oca-pr/tree/12.0/web_list_view_general_button
+    :alt: ooops404/oca-pr
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: http://weblate.ops404.it/projects/oca-pr/web_list_view_general_button
     :alt: Translate me on Weblate
@@ -25,7 +25,7 @@ List View General Buttons
 Features:
  - This module allows you to add general buttons in list views
 
-.. figure:: https://raw.githubusercontent.com/Ooops404/oca-pr/12.0/web_list_view_general_button/static/description/usage.jpg
+.. figure:: https://raw.githubusercontent.com/ooops404/oca-pr/12.0/web_list_view_general_button/static/description/usage.jpg
     :align: center
     :alt: Usage
 
@@ -86,10 +86,10 @@ In this situation we will call the get_general_buttons method which will return 
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/Ooops404/oca-pr/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/ooops404/oca-pr/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/Ooops404/oca-pr/issues/new?body=module:%20web_list_view_general_button%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/ooops404/oca-pr/issues/new?body=module:%20web_list_view_general_button%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -123,6 +123,6 @@ Current maintainer:
 
 |maintainer-dhongu| 
 
-This module is part of the `Ooops404/oca-pr <https://github.com/Ooops404/oca-pr/tree/12.0/web_list_view_general_button>`_ project on GitHub.
+This module is part of the `ooops404/oca-pr <https://github.com/ooops404/oca-pr/tree/12.0/web_list_view_general_button>`_ project on GitHub.
 
 You are welcome to contribute.
