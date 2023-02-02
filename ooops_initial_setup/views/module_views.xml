@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<odoo>
+    <!-- ir.module.module inherit form view -->
+    <record id="module_form_inherit" model="ir.ui.view">
+        <field name="name">ir.module.module.inherit.view.form</field>
+        <field name="model">ir.module.module</field>
+        <field name="inherit_id" ref="base.module_form" />
+        <field name="arch" type="xml">
+            <field name="installed_version" position="after">
+                <field name="latest_version" />
+            </field>
+        </field>
+    </record>
+</odoo>
