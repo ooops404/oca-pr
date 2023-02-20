@@ -4,13 +4,13 @@
 #
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2018
-# Francesco @ Ooops <francesco.foresti@ooops404.com>, 2022.
+# Francesco @ Ooops <francesco.foresti@ooops404.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-03 10:08+0000\n"
-"PO-Revision-Date: 2022-02-05 18:36+0000\n"
+"PO-Revision-Date: 2023-02-20 22:38+0000\n"
 "Last-Translator: Francesco @ Ooops <francesco.foresti@ooops404.com>\n"
 "Language-Team: Italian <http://weblate.ops404.it/projects/oca-pr-14-0/"
 "database_cleanup/it/>\n"
@@ -217,7 +217,7 @@ msgstr "Ultima modifica il"
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_property__write_uid
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table__write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultimo aggiornamento di"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line__write_date
@@ -237,7 +237,7 @@ msgstr "Last Updated by"
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_property__write_date
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table__write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Ultimo aggiornamento il"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_menu__menu_id
