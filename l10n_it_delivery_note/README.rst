@@ -13,9 +13,9 @@ ITA - Documento di trasporto
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-ooops404%2Foca--pr-lightgray.png?logo=github
-    :target: https://github.com/ooops404/oca-pr/tree/12.0/l10n_it_delivery_note
-    :alt: ooops404/oca-pr
+.. |badge3| image:: https://img.shields.io/badge/github-Ooops404%2Foca--pr-lightgray.png?logo=github
+    :target: https://github.com/Ooops404/oca-pr/tree/12.0/l10n_it_delivery_note
+    :alt: Ooops404/oca-pr
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: http://weblate.ops404.it/projects/oca-pr/l10n_it_delivery_note
     :alt: Translate me on Weblate
@@ -149,10 +149,10 @@ Di seguito, una piccola lista di passi da seguire per portare a termine la migra
 Bug Tracker
 ===========
 
-Bugs are tracked on `GitHub Issues <https://github.com/ooops404/oca-pr/issues>`_.
+Bugs are tracked on `GitHub Issues <https://github.com/Ooops404/oca-pr/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/ooops404/oca-pr/issues/new?body=module:%20l10n_it_delivery_note%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/Ooops404/oca-pr/issues/new?body=module:%20l10n_it_delivery_note%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -193,6 +193,6 @@ Current maintainers:
 
 |maintainer-As400it| |maintainer-Byloth| 
 
-This module is part of the `ooops404/oca-pr <https://github.com/ooops404/oca-pr/tree/12.0/l10n_it_delivery_note>`_ project on GitHub.
+This module is part of the `Ooops404/oca-pr <https://github.com/Ooops404/oca-pr/tree/12.0/l10n_it_delivery_note>`_ project on GitHub.
 
 You are welcome to contribute.
